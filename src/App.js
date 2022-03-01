@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <h1>Form with Formik</h1>
+
       <h1>Contact Us</h1>
+
       <Formik
         initialValues={{ name: "", email: "" }}
         onSubmit={(values) => {
@@ -18,6 +20,7 @@ function App() {
           <button type="submit">Submit</button>
         </Form>
       </Formik>
+      
     </div>
   );
 }
